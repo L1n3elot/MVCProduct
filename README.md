@@ -26,6 +26,8 @@ Packages include:
 2. microsoft.entityframeworkcore.tools(9.0.0)
 3. microsoft.visualstudio.web.codegeneration.design(9.0.0)
 
+# DI
+I have grouped the service and controller as loosely coupled in order to keep everything organized and maintainable. I have injected all methods from product services into the controller so that the controller can take user requiests based on what the methods call for. For example, the Create action method takes a request from users who decides to add a product based on the method call coming from the service classes and interface.
 
 # Main products page:
 
